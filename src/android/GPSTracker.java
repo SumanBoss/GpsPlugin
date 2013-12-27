@@ -1,4 +1,4 @@
-package org.apache.cordova.plugin;
+package org.apache.cordova.gpsplugin;
 
 import org.json.JSONArray;
 import org.json.JSONException;
