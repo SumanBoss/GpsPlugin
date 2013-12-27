@@ -19,9 +19,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="gps">
-                <param name="android-package" value="org.apache.cordova.plugin.GPSTracker"/>
+                <param name="android-package" value="org.apache.cordova.gpsplugin.GPSTracker"/>
             </feature>
         </config-file>
-        <source-file src="src/android/GPSTracker.java" target-dir="src/org/apache/cordova/plugin" />      
+        <source-file src="src/android/GPSManager.java" target-dir="src/org/apache/cordova/gpsplugin" />      
+        <source-file src="src/android/GPSTracker.java" target-dir="src/org/apache/cordova/gpsplugin" />  
      </platform>          
 </plugin>
