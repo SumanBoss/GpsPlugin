@@ -45,7 +45,7 @@ public class GPSTrack extends CordovaPlugin {
                 GPSManager gps = new GPSManager(context);
                 Location location = gps.getLocDetails();
                 JSONObject jSONObject = new JSONObject();
-                Toast.makeText(context.getApplicationContext(), location.getLatitude(), Toast.LENGTH_LONG).show();
+                Toast.makeText(context.getApplicationContext(), ""+location.getLatitude(), Toast.LENGTH_LONG).show();
                 jSONObject.put("lat", location.getLatitude());
                 jSONObject.put("long", location.getLongitude());
                 callbackContext.success(jSONObject);
