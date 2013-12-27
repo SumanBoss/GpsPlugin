@@ -114,7 +114,7 @@ public class GPSManager extends Service implements LocationListener {
      */
     public void stopUsingGPS() {
         if (locationManager != null) {
-            locationManager.removeUpdates(GPSTracker.this);
+            locationManager.removeUpdates(GPSManager.this);
             locationManager = null;
         }
     }
