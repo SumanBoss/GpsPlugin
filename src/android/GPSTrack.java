@@ -32,7 +32,7 @@ public class GPSTrack extends CordovaPlugin {
                 }
                 JSONObject jSONObject = new JSONObject();
                 Toast.makeText(context.getApplicationContext(), gpsstatus, Toast.LENGTH_LONG).show();
-                jSONObject.put("status", GPSTracker.gpsstatus);
+                jSONObject.put("status", GPSTrack.gpsstatus);
                 callbackContext.success(jSONObject);
                 return true;
             } else if (CHANGE_GPS.equals(action)) {
