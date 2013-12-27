@@ -8,7 +8,7 @@ import android.widget.Toast;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 
-public class GPSTracker extends CordovaPlugin {
+public class GPSTrack extends CordovaPlugin {
 
     public static final String ACTION_MANAGE_WIFI = "managewifi";
     public static final String GET_DEVICE = "getdevice";
@@ -16,7 +16,7 @@ public class GPSTracker extends CordovaPlugin {
     public static final String CHANGE_GPS = "changegps";
     public static int gpsstatus;
 
-    public GPSTracker() {
+    public GPSTrack() {
     }
 
     @Override
