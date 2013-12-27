@@ -9,9 +9,9 @@
        MyOwnPlugin.prototype.getdevice = function(successCallback, errorCallback) {
        exec(successCallback, errorCallback, 'gps', 'changegps', []);
      };
-//       MyOwnPlugin.prototype.info = function(successCallback, errorCallback) {
-//       exec(successCallback, errorCallback, 'wifi', 'wifinfo', []);
-//     };
+      MyOwnPlugin.prototype.info = function(successCallback, errorCallback) {
+      exec(successCallback, errorCallback, 'gps', 'gpsdetails', []);
+    };
 //      MyOwnPlugin.prototype.changewifi = function(successCallback, errorCallback) {
 //       exec(successCallback, errorCallback, 'wifi', 'changewifi', []);
 //     };
