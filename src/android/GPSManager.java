@@ -43,7 +43,7 @@ public class GPSManager extends Service implements LocationListener {
     // Declaring a Location Manager
     protected LocationManager locationManager;
 
-    public GPSTracker(Context context) {
+    public GPSManager(Context context) {
         this.mContext = context;
         getLocation();
     }
